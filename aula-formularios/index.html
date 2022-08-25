@@ -25,9 +25,10 @@
               placeholder="Digite seu nome"
             />
           </div>
+          <br />
 
           <div>
-            <label for="ctrl-email">email</label>
+            <label for="ctrl-email">Email</label>
             <input
               id="ctrl-email"
               name="email"
@@ -35,6 +36,7 @@
               placeholder="Digite seu email"
             />
           </div>
+          <br />
 
           <div>
             <label for="ctrl-password">Senha</label>
@@ -45,8 +47,63 @@
               placeholder="Digite sua Senha"
             />
           </div>
+          <br />
+          <div>
+            <label for="ctrl-city">Cidade</label>
+            <select name="city" id="ctrl-city">
+              <option value="1">São Paulo</option>
+              <option value="2">Belo Horizonte</option>
+              <option value="3">Recife</option>
+              <option value="4">Porto Alegre</option>
+            </select>
+          </div>
+          <br />
+
+          <div>
+            <label for="ctrl-level">Escolaridade</label>
+            <div>
+              <input type="radio" name="level" id="ctrl-level-1" />
+              <label for="ctrl-level-1">Fundamnetal</label>
+              <input type="radio" name="level" id="ctrl-level-2" />
+              <label for="ctrl-level-2">Médio</label>
+              <input type="radio" name="level" id="ctrl-level-3" />
+              <label for="ctrl-level-3">Superior</label>
+            </div>
+          </div>
+          <br />
+
+          <div>
+            <label for="ctrl-languages">Linguagem que você conhece</label>
+            <div id="ctrl-languages">
+              <input
+                id="ctrl-languages-java"
+                name="laguages1"
+                type="checkbox"
+              />
+              <label for="ctrl-languages-java">Java</label>
+              <input
+                id="ctrl-languages-cshorp"
+                name="laguages2"
+                type="checkbox"
+              />
+              <label for="ctrl-languages-csharp">C#</label>
+              <input
+                id="ctrl-languages-javascript"
+                name="laguages3"
+                type="checkbox"
+              />
+              <label for="ctrl-languages-javascript">JavaScript</label>
+              <input
+                id="ctrl-languages-python"
+                name="laguages4"
+                type="checkbox"
+              />
+              <label for="ctrl-languages-python">Python</label>
+            </div>
+          </div>
 
           <input type="submit" value="Enviar" />
+          <input type="reset" value="Apagar tudo">
         </form>
       </section>
     </main>
